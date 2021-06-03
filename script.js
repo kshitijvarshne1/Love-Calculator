@@ -3,7 +3,6 @@ function checkLovePercentage(){
     var loveData = Math.floor(Math.random()*100)+1;
     var name = document.getElementById('name');
     var lName= document.getElementById('loveName');
-    
     if(name.value==""){
         alert("Please enter your name")
     }
